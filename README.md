@@ -1,6 +1,6 @@
-# BaoBank
+# ParuBank
 
-BaoBank - your financial satellite!
+ParuBank - your financial satellite!
 
 ## Available Scripts
 

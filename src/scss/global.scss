@@ -108,3 +108,39 @@ label {
 legend {
   display: block;
 }
+
+
+.primeryBtn {
+  width: 320px;
+  height: 50px;
+  background-color: $primery-color;
+  color: #fff;
+  font-family: $main-font;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  border-radius: 10px;
+  cursor: pointer;
+  text-transform: initial; 
+  transition: ease-in-out .7s;
+
+  &:hover {
+    background: linear-gradient(#F05B57, #EC1B69);
+  }
+}
+
+.secenderyBtn {
+  color: $primery-color;
+  font-family: $main-font;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  cursor: pointer;
+  margin: 0;
+  text-transform: initial;
+  transition: ease-in-out 0.7s;
+  
+  &:hover {
+    text-decoration: underline;
+  }
+}
