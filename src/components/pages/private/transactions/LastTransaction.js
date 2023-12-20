@@ -58,6 +58,7 @@ export default function LastTransactions() {
                 </Typography>
             </Grid>
             <Grid sx={{
+                minWidth: '320px',
                 listStyle: 'none',
                 display: 'flex',
                 flexDirection: 'column',
