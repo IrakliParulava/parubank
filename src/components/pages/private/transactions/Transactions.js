@@ -42,7 +42,7 @@ export default function Transactions() {
         .filter(t => filterType === 'all' || (filterType === 'incomes' && t.trType === 'in') || (filterType === 'expenses' && t.trType === 'out'));
 
     return (
-        <Grid>
+        <Grid sx={{ pb: 8 }}>
             <Grid container sx={{
                 display: "flex",
                 flexDirection: "column",

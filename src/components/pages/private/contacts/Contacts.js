@@ -34,13 +34,13 @@ function Contacts(props) {
 
 
     return (
-        <Grid>
+        <Grid sx={{ pb: 11 }}>
             <Typography sx={{
                 fontFamily: 'Outfit',
                 fontSize: '20px',
                 fontWeight: '800',
                 color: '#EC1B69',
-                pl: 2
+                pl: 2,
             }}>
                 Contact List
             </Typography>
