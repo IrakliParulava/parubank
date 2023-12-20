@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, useNavigate } from "react-router-dom";
 
 //Layouts
 import ErrorLayout from "./layout/ErrorLayout";
@@ -34,6 +34,10 @@ import appStyle from "../scss/app.scss";
 
 
 function App() {
+  const navigate = useNavigate();
+
+  navigate("/onboarding", { replace: true });
+
   const publicPages = [
     {
       element: <Welcome />,
